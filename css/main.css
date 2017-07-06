@@ -26,9 +26,6 @@ header{
 #subTitleText{
   margin-top: 0px;
 }
-#subText{
-  margin-top: 0px;
-}
 #colorDiv{
   display: flex;
   border-top-style: solid;
@@ -85,12 +82,6 @@ header{
 #projectDiv3{
   margin: auto;
 }
-#projectImg{
-  display: block;
-  margin:auto;
-  max-width: 80%;
-  padding-top: 10px;
-}
 .right{
   float: right;
 }
@@ -114,4 +105,13 @@ header{
 }
 .noBottomMargin{
   margin-bottom: 0px;
+}
+.subText{
+  margin-top: 0px;
+}
+.projectImg{
+  display: block;
+  margin:auto;
+  max-width: 80%;
+  padding-top: 10px;
 }
