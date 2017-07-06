@@ -1,0 +1,45 @@
+h1{
+  font-size: 3vw;
+}
+h3{
+  font-size: 2vw;
+}
+p{
+  font-size: 1.5vw;
+}
+#name{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 5vw;
+}
+#logo{
+  min-width: 48px;
+  max-width: 30%;
+}
+#subTitleText{
+  font-size: 2vw;
+}
+#subText{
+  font-size: 1vw;
+}
+#colorDiv{
+  margin-top: 330px;
+  width: 150px;
+}
+#cDiv1{
+  width: 100px;
+  height: 100px;
+  background-color: #909090;
+}
+#cDiv2{
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+}
+#cDiv3{
+  width: 99px;
+  height: 99px;
+  background-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}

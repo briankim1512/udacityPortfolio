@@ -3,16 +3,18 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/main-medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1080px)" href="css/main-large.css">
   </head>
   <body>
     <header class="right">
       <img src="img/logo.jpg" alt="logo" id="logo" class="left">
       <div class="right">
-        <h1>
+        <h1 id="name">
           Brian Kim
         </h1>
-        <h5 id="subText" class="right">
+        <h5 id="subTitleText" class="right">
           Full Stack Developer
         </h3>
       </div>
@@ -40,47 +42,57 @@
         </p>
       </div>
     </div>
-    <article class="center">
-      <p>
-        &nbsp &nbsp &nbsp Welcome to my portfolio. It is still a WIP 
-        (work in progress). Although simple, I predict that I will have to expand 
-        on this site later on for career advancements.<br><br>
-        &nbsp &nbsp &nbsp Visit this site later to see if it has improved as my 
-        education continues for full stack development.<br><br>
-        &nbsp &nbsp &nbsp Until then, you might as well have a short look around; 
-        you might find something interesting...
-      </p>
-    </article>
-    <img src="img/mainImg.jpg" alt="Screen grab of my own python projects"
-    id="mainImg">
+    <div id="mainContainer">
+      <article class="center">
+        <p>
+          &nbsp &nbsp &nbsp Welcome to my portfolio. It is still a WIP 
+          (work in progress). Although simple, I predict that I will have to expand 
+          on this site later on for career advancements.<br><br>
+          &nbsp &nbsp &nbsp Visit this site later to see if it has improved as my 
+          education continues for full stack development.<br><br>
+          &nbsp &nbsp &nbsp Until then, you might as well have a short look around; 
+          you might find something interesting...
+        </p>
+      </article>
+      <img src="img/mainImg.jpg" alt="Screen grab of my own python projects"
+      id="mainImg">
+    </div>
     <h1 id="projectTitle" class="centerText">
       Other Projects
     </h1>
-    <a href="https://github.com/briankim1512/ud036_StarterCode">
-      <img src="img/cinemaPro.jpg" alt="cinema by Do u remember is licensed under
-      CC BY 2.0" id="projectImg">
-    </a>
-    <h3 class="centerText noBottomMargin">
-        Movie Trailer Website<br>
-    </h3>
-    <p id="subText" class="microText centerText">
-      ttps://github.com/briankim1512/ud036_StarterCode
-    </p>
-    <img src="img/cardCat.jpg" alt="Card Catalog by bookfinch is licensed under
-    CC BY 2.0" id="projectImg">
-    <h3 class="centerText noBottomMargin">
-      Item Catalogue<br>
-    </h3>
-    <p id="subText" class="microText centerText">
-      Coming soon...
-    </p>
-    <img src="img/neighMap.jpg" alt="map by flrnt is licensed under
-    CC BY 2.0" id="projectImg">
-    <h3 class="centerText noBottomMargin">
-      Neighborhood Map<br>
-    </h3>
-    <p id="subText" class="microText centerText">
-      Coming soon...
-    </p>
+    <div id="projectDivGroup">
+      <div id="projectDiv1">
+        <a href="https://github.com/briankim1512/ud036_StarterCode">
+          <img src="img/cinemaPro.jpg" alt="cinema by Do u remember is licensed under
+          CC BY 2.0" id="projectImg">
+        </a>
+        <h3 class="centerText noBottomMargin">
+            Movie Trailer Website<br>
+        </h3>
+        <p id="subText" class="microText centerText">
+          ttps://github.com/briankim1512/ud036_StarterCode
+        </p>
+      </div>
+      <div id="projectDiv2">
+        <img src="img/cardCat.jpg" alt="Card Catalog by bookfinch is licensed under
+        CC BY 2.0" id="projectImg">
+        <h3 class="centerText noBottomMargin">
+          Item Catalogue<br>
+        </h3>
+        <p id="subText" class="microText centerText">
+          Coming soon...
+        </p>
+      </div>
+      <div id="projectDiv3">
+        <img src="img/neighMap.jpg" alt="map by flrnt is licensed under
+        CC BY 2.0" id="projectImg">
+        <h3 class="centerText noBottomMargin">
+          Neighborhood Map<br>
+        </h3>
+        <p id="subText" class="microText centerText">
+          Coming soon...
+        </p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,48 @@
+header{
+  min-width: 290px;
+  width: 80%;
+  margin: 10px;
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: #909090;
+  border-bottom-width: 2px;
+  clear: both;
+}
+#colorDiv{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: left;
+  margin-top: 152px;
+  width: 100px;
+  padding-top: 20px;
+  clear: left;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #909090;
+}
+#mainContainer{
+  margin-right: 0px;
+  padding-top: 160px;
+  max-width: 80%;
+}
+#projectDivGroup{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#projectDiv1{
+  margin: auto;
+}
+#projectDiv2{
+  margin: auto;
+}
+#projectDiv3{
+  margin: auto;
+}
+#projectImg{
+  display: block;
+  margin:auto;
+  width: 80%;
+  padding-top: 10px;
+}
