@@ -3,6 +3,8 @@
   color: white;
 }
 body{
+  padding-right: 5%;
+  padding-left: 5%;
   background-color: black;
   margin: 10px;
 }
@@ -10,12 +12,7 @@ header{
   min-width: 290px;
   width: 80%;
   margin: 10px;
-  padding-right: 5%;
   padding-bottom: 10px;
-}
-article{
-  padding-right: 5%;
-  padding-left: 5%;
 }
 #logo{
   min-width: 48px;
@@ -61,6 +58,15 @@ article{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+#projectTitle{
+  color: #909090;
+}
+#projectImg{
+  display: block;
+  margin:auto;
+  width: 80%;
+  padding-top: 10px;
+}
 .right{
   float: right;
 }
@@ -78,4 +84,10 @@ article{
 }
 .clear{
   clear: both;
+}
+.microText{
+  font-size: 7px;
+}
+.noBottomMargin{
+  margin-bottom: 0px;
 }
