@@ -19,10 +19,10 @@ header{
   min-width: 330px;
   width: 80%;
   margin: 10px;
-  padding-bottom: 20px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #909090;
+}
+article{
+  padding-right: 5%;
+  padding-left: 5%;
 }
 #logo{
   min-width: 48px;
@@ -34,10 +34,16 @@ header{
   margin-top: 0px;
 }
 #colorDiv{
-  padding-top: 10px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #909090;
+  padding-top: 20px;
   margin: auto;
   clear: both;
   width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #909090;
 }
 #cDiv1{
   width: 50px;
