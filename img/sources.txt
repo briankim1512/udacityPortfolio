@@ -1,0 +1,3 @@
+cinemPro.jpg: https://www.flickr.com/photos/cld/3810512461
+cardCat.jpg: https://www.flickr.com/photos/mamsy/4175023689/
+neighMap.jpg: https://www.flickr.com/photos/flrnt/440869298/
