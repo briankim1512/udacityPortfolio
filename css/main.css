@@ -24,6 +24,7 @@ header{
   margin-top: 0px;
 }
 #colorDiv{
+  display: flex;
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #909090;
